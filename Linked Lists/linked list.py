@@ -29,8 +29,8 @@ class LinkedList:
             curr = curr.next
         curr.next = None
 
-    def delete_nth_node(self, n):
-        dummy = LinkedList()
+    def delete_nth_node_from_end(self, n):
+        dummy = Node(0)
         dummy.next = self.head
         left = dummy
         curr = self.head
@@ -65,7 +65,7 @@ lst.print_list()
 # lst.print_list()
 # lst.delete_at_end()
 # lst.print_list()
-lst.delete_nth_node(4)
+lst.delete_nth_node_from_end(2)
 lst.print_list()
 
 
