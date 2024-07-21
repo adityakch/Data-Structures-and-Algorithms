@@ -12,7 +12,7 @@ def rotten_oranges(grid):
     for r in range(rows):
         for c in range(cols):
             if grid_copy[r][c] == 2:
-                queue.append((r,c,0))
+                queue.append((r,c,1))
             elif grid_copy[r][c] == 1:
                 fresh_oranges += 1
 
