@@ -1,4 +1,4 @@
-def optimal(arr):
+def optimal(arr): #single pass
     n = len(arr)
 
     largest = arr[0]
@@ -13,7 +13,7 @@ def optimal(arr):
 
     return slargest
 
-def second_largest(arr):
+def second_largest(arr): #two pass
     n = len(arr)
 
     largest = arr[0]
