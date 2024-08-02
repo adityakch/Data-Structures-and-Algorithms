@@ -24,7 +24,7 @@ vector<int> nextGreater(vector<int> &arr)
     return ans;
 }
 
-// better,
+// better, TC: O(2n) + O(2n), Sc: O(2n)
 vector<int> nextGreater2(vector<int> &arr)
 {
     int n = arr.size();
