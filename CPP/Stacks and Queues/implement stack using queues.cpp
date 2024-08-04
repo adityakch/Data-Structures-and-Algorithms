@@ -3,6 +3,7 @@
 using namespace std;
 
 // using two queues
+// 1) push x to q1 (2) q1 to q2 (3) swap(q1,q2)
 class MyStack1
 {
     queue<int> q1;

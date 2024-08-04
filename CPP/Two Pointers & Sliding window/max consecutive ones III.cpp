@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// brute force, TC: O(n), SC: O(1)
+// brute force, TC: O(n^2), SC: O(1)
 int longestOnes(vector<int> &nums, int k)
 {
     int n = nums.size();
